@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Imagens por IA</title>
+</head>
+<body>
+    <h1>Gerador de Imagens por IA</h1>
+    <form action="/gerar-imagem" method="post">
+        <label for="cor_cabelo">Cor do Cabelo:</label><br>
+        <input type="text" id="cor_cabelo" name="cor_cabelo" required><br><br>
+
+        <label for="cor_olhos">Cor dos Olhos:</label><br>
+        <input type="text" id="cor_olhos" name="cor_olhos" required><br><br>
+
+        <label for="tipo_cabelo">Tipo do Cabelo:</label><br>
+        <input type="text" id="tipo_cabelo" name="tipo_cabelo" required><br><br>
+
+        <label for="cor_pele">Cor da Pele:</label><br>
+        <input type="text" id="cor_pele" name="cor_pele" required><br><br>
+
+        <label for="altura">Altura:</label><br>
+        <input type="text" id="altura" name="altura" required><br><br>
+
+        <label for="estilo_roupas">Estilo das Roupas:</label><br>
+        <input type="text" id="estilo_roupas" name="estilo_roupas" required><br><br>
+
+        <input type="submit" value="Gerar Imagem">
+    </form>
+</body>
+</html>
